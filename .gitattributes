@@ -1,6 +1,6 @@
-# Ignore unnecessary files/folders for the distribution archive
-/tests    expose-ignore
-/.github  expose-ignore
-phpunit.xml.dist expose-ignore
-.gitattributes expose-ignore
-.gitignore expose-ignore
+# Exclude unneeded files/folders for the distribution archive
+/tests           export-ignore
+/.github         export-ignore
+phpunit.xml.dist export-ignore
+.gitattributes   export-ignore
+.gitignore       export-ignore
