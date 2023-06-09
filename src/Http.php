@@ -75,13 +75,13 @@ class Http
     /**
      * Give the HTTP status code name (e.g. "204 No Content").
      *
-     * @param int $iStatus The "code" for the HTTP status.
+     * @param int $status The "code" for the HTTP status.
      *
-     * @return string|bool $iStatus Returns the "HTTP status code" if found, FALSE otherwise.
+     * @return string|bool $status Returns the "HTTP status code" if found, FALSE otherwise.
      */
-    public static function getStatusCode(int $iStatus): string|bool
+    public static function getStatusCode(int $status): string|bool
     {
-        return !empty(static::STATUS_CODE[$iStatus]) ? static::STATUS_CODE[$iStatus] : false;
+        return !empty(static::STATUS_CODE[$status]) ? static::STATUS_CODE[$status] : false;
     }
 
     /**
@@ -95,11 +95,11 @@ class Http
     /**
      * Set one or multiple headers.
      *
-     * @param string|array $mHeaders Headers to send.
+     * @param string|array $headers Headers to send.
      *
      * @throws Exception
      */
-    public static function setHeaders(string|array $mHeaders): void
+    public static function setHeaders(string|array $headers): void
     {
         // Header already sent
         if (static::isSent()) {
@@ -107,7 +107,7 @@ class Http
         }
 
         // Loop elements and set header
-        foreach ((array)$mHeaders as $sHeader) {
+        foreach ((array)$headers as $sHeader) {
             header((string)$sHeader);
         }
     }
@@ -115,17 +115,17 @@ class Http
     /**
      * Parse headers for a given status code.
      *
-     * @param int $iCode The code to use, possible values are: 200, 301, 302, 304, 307, 400, 401, 403, 404, 410, 500, 501, ...
+     * @param int $code The code to use, possible values are: 200, 301, 302, 304, 307, 400, 401, 403, 404, 410, 500, 501, ...
      *
      * @throws Exception
      */
-    public static function setHeadersByCode(int $iCode = StatusCode::OK): void
+    public static function setHeadersByCode(int $code = StatusCode::OK): void
     {
-        if (!static::getStatusCode($iCode)) {
-            $iCode = StatusCode::OK;
+        if (!static::getStatusCode($code)) {
+            $code = StatusCode::OK;
         }
 
-        static::setHeaders(static::getProtocol() . ' ' . static::getStatusCode($iCode));
+        static::setHeaders(static::getProtocol() . ' ' . static::getStatusCode($code));
     }
 
     /**
@@ -143,12 +143,12 @@ class Http
     /**
      * Set the HTTP status code for the maintenance page.
      *
-     * @param int $iMaintenanceTime Time site will be down for (in seconds).
+     * @param int $maintenanceTimeSeconds Time site will be down for (in seconds).
      */
-    public static function setMaintenanceCode(int $iMaintenanceTime): void
+    public static function setMaintenanceCode(int $maintenanceTimeSeconds): void
     {
         header(static::getProtocol() . ' 503 Service Temporarily Unavailable');
-        header('Retry-After: ' . $iMaintenanceTime);
+        header('Retry-After: ' . $maintenanceTimeSeconds);
     }
 
 
