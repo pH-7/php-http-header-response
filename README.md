@@ -1,6 +1,6 @@
 # PHP HTTP Response
 
-**Send easily HTTP status codes to the browser.**
+**Send easily HTTP header responses to the browser.**
 
 
 ## Requirement
