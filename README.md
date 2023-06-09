@@ -2,6 +2,19 @@
 
 **Send easily HTTP status codes to the browser.**
 
+
+## Requirement
+ * [PHP v8.0](https://www.php.net/releases/8.0/en.php) or higher 🚀
+
+
+## Installation
+
+The simplest way to add this library to your project, is with Composer
+
+```console
+composer require ph-7/php-http-response-header
+```
+
 ## 🪄 Usage - Examples
 
 ### Send Header By HTTP Code
