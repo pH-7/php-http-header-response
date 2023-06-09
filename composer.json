@@ -2,18 +2,12 @@
     "name": "ph-7/php-http-response-header",
     "description": "A simple package that sends HTTP header status codes",
     "keywords": [
-        "HTTP code",
         "HTTP status code",
         "status code",
-        "PHP status codes",
-        "clean code",
-        "constant",
-        "constants",
+        "HTTP status codes",
         "http",
-        "code",
-        "magic number",
-        "all status codes",
-        "all HTTP status codes"
+        "response",
+        "HTTP header"
     ],
     "homepage": "https://pierrehenry.be",
 
