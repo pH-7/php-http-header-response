@@ -79,11 +79,11 @@ class Http
 
 
     /**
-     * Give the HTTP status code name (e.g. "204 No Content").
+     * Give the HTTP status code name (e.g. '204 No Content').
      *
      * @param int $status The "code" for the HTTP status.
      *
-     * @return string|bool $status The "HTTP status code" if found, FALSE otherwise.
+     * @return string|bool $status The correct HTTP status code if found, FALSE otherwise.
      */
     public static function getStatusCode(int $status): string|bool
     {
@@ -137,7 +137,7 @@ class Http
     /**
      * Set a HTTP Content Type.
      *
-     * @param string $type The content type value. e.g., "text/xml".
+     * @param string $type The content type value. e.g. 'text/xml'
      *
      * @throws Exception
      */

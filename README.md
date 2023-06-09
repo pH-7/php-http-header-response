@@ -67,10 +67,10 @@ Http::getProtocol()
 use PH7\PhpHttpResponseHeader\Header;
 
 // Send "Content-Type: application/json" header to the browser
-Http::setContentType("application/json");
+Http::setContentType('application/json');
 
 // Send "Content-type: text/xml" to the browser
-Http::setContentType("text/xml");
+Http::setContentType('text/xml');
 ```
 
 
