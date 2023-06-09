@@ -4,22 +4,62 @@
 
 ## 🪄 Usage - Examples
 
+### Send Header By HTTP Code
 ```php
 use PH7\PhpHttpResponseHeader\Header;
 
-Http::setHeaders(200); // Sends "200 OK" header to the browser
-
-
-// ...
-
-Http::setHeaders(404); // Sends "404 Not Found" to the browser
+// Sends "200 OK" header to the browser
+Http::setHeadersByCode(200);
 
 // ...
 
-Http::setHeaders(400); // Sends "400 Bad Request" to the browser
+// Send "201 Created" header
+Http::setHeadersByCode(201);
+
+// ...
+
+// Sends "404 Not Found" to the browser
+Http::setHeadersByCode(404);
+
+// ...
+
+// Sends "400 Bad Request" header to the browser
+Http::setHeadersByCode(400);
+
 
 // and so on ...
 ```
+
+**But, the library has many more handy methods such as below:**
+
+### Maintenance Code
+```php
+use PH7\PhpHttpResponseHeader\Header;
+
+// Send 503, Service Temporarily Unavailable to the browser mentioning that you are doing a maintenance (good practice!)
+Http::setMaintenanceCode($maintenanceTimeSeconds: 360);
+```
+
+### Get HTTP Protocol
+
+```php
+use PH7\PhpHttpResponseHeader\Header;
+
+//  The HTTP server protocol
+Http::getProtocol()
+```
+
+### Set Content Type
+```php
+use PH7\PhpHttpResponseHeader\Header;
+
+// Send "Content-Type: application/json" header to the browser
+Http::setContentType("application/json");
+
+// Send "Content-type: text/xml" to the browser
+Http::setContentType("text/xml");
+```
+
 
 ## 🧑‍🍳 Who made this...?
 
