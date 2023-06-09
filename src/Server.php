@@ -1,10 +1,16 @@
 <?php
+/**
+ * @author      Pierre-Henry Soria <hi@ph7.me>
+ * @license     MIT License
+ */
+
+declare(strict_types=1);
 
 namespace PH7\PhpHttpResponseHeader;
 
 final class Server
 {
-    const SERVER_PROTOCOL = 'SERVER_PROTOCOL';
+    public const SERVER_PROTOCOL = 'SERVER_PROTOCOL';
 
     /**
      * Retrieve a member of the $_SERVER super global.
