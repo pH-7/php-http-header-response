@@ -1,0 +1,11 @@
+# Depedency folders
+/vendor/
+composer.lock
+
+# IDE config folders
+.idea/
+
+# Testing
+/.phpunit.cache/
+.phpunit.result.cache
+phpunit.xml
