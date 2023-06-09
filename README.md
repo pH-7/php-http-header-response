@@ -2,13 +2,24 @@
 
 **Send easily HTTP status codes to the browser.**
 
+## 🪄 Usage - Examples
 
 ```php
+use PH7\PhpHttpResponseHeader\Header;
+
+Http::setHeaders(200); // Sends "200 OK" header to the browser
 
 
+// ...
+
+Http::setHeaders(404); // Sends "404 Not Found" to the browser
+
+// ...
+
+Http::setHeaders(400); // Sends "400 Bad Request" to the browser
+
+// and so on ...
 ```
-
-
 
 ## 🧑‍🍳 Who made this...?
 
