@@ -83,7 +83,7 @@ class Http
      *
      * @param int $status The "code" for the HTTP status.
      *
-     * @return string|bool $status Returns the "HTTP status code" if found, FALSE otherwise.
+     * @return string|bool $status The "HTTP status code" if found, FALSE otherwise.
      */
     public static function getStatusCode(int $status): string|bool
     {
@@ -112,9 +112,9 @@ class Http
             throw new Exception('Headers were already sent.');
         }
 
-        // Loop elements and set header
-        foreach ((array)$headers as $sHeader) {
-            header((string)$sHeader);
+        // Loop elements, cast type and set header
+        foreach ((array)$headers as $header) {
+            header((string)$header);
         }
     }
 
@@ -137,13 +137,13 @@ class Http
     /**
      * Set a HTTP Content Type.
      *
-     * @param string $sType Example: "text/xml".
+     * @param string $type The content type value. e.g., "text/xml".
      *
      * @throws Exception
      */
-    public static function setContentType(string $sType): void
+    public static function setContentType(string $type): void
     {
-        static::setHeaders('Content-Type: ' . $sType);
+        static::setHeaders('Content-Type: ' . $type);
     }
 
     /**
