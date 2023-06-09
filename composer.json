@@ -10,7 +10,6 @@
         "HTTP header"
     ],
     "homepage": "https://pierrehenry.be",
-
     "type": "library",
     "require": {
         "php": ">=8.0",

@@ -1,4 +1,8 @@
 <?php
+/**
+ * @author      Pierre-Henry Soria <hi@ph7.me>
+ * @license     MIT License
+ */
 
 declare(strict_types=1);
 
