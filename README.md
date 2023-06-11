@@ -1,6 +1,6 @@
 # PHP HTTP Response
 
-**Send easily HTTP header responses to the browser.**
+**Simple PHP package to easily send the right HTTP header responses to the browser 🐘**
 
 
 ## Requirement
