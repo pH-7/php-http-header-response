@@ -1,4 +1,4 @@
-# PHP HTTP Response
+# PHP HTTP Response Headers
 
 **Simple PHP package to easily send the right HTTP header responses to the browser 🐘**
 
