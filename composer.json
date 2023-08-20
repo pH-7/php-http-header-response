@@ -1,22 +1,24 @@
 {
     "name": "ph-7/php-http-response-header",
-    "description": "A simple package to send HTTP header responses.",
+    "description": "A simple package to send HTTP header responses from your PHP application",
     "keywords": [
         "HTTP status code",
         "status code",
-        "HTTP status codes",
+        "HTTP response",
         "http",
         "response",
-        "HTTP header"
+        "HTTP header",
+        "headers",
+        "HTTP status"
     ],
-    "homepage": "https://pierrehenry.be",
+    "homepage": "https://github.com/pH-7/php-http-header-response",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Pierre-Henry Soria",
             "email": "hi@PH7.me",
-            "homepage": "https://github.com/pH-7"
+            "homepage": "https://ph7.me"
         }
     ],
     "require": {
