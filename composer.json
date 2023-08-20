@@ -1,6 +1,6 @@
 {
     "name": "ph-7/php-http-response-header",
-    "description": "A simple package to send HTTP header responses from your PHP application",
+    "description": "A simple package to send HTTP response headers from your PHP application",
     "keywords": [
         "HTTP status code",
         "status code",
