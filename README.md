@@ -91,7 +91,7 @@ Http::setContentType('text/xml');
 [![@phenrysay][twitter-image]](https://twitter.com/phenrysay) [![pH-7][github-image]](https://github.com/pH-7)
 
 
-## Me building this package 📦
+## 🎥 Me building this package
 
 [![Watch the video][video-thumbnail]](https://youtu.be/Q4djsRczxgo)
 
