@@ -2,7 +2,7 @@
 
 **Simple PHP package to easily send the right HTTP header responses to the browser 🐘**
 
-- [⚙️ Requirement](#-requirement)
+- [⚙️ Requirement](#%EF%B8%8F-requirement)
 - [📦 Installation](#-installation)
 - [🪄 Examples](#-usage---examples)
 - [👨‍🍳 Who is the baker?](#-who-baked-this)
