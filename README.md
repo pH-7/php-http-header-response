@@ -2,6 +2,12 @@
 
 **Simple PHP package to easily send the right HTTP header responses to the browser 🐘**
 
+- [⚙️ Requirement](##requirement)
+- [📦 Installation](#installation)
+- [🪄 Examples](#-usage---examples)
+- [👨‍🍳 Who is the baker?](#-who-baked-this)
+- [📺 Me building this package](#me-building-this-package-)
+- [⚖️ License](#%EF%B8%8F-license)
 
 ## Requirement
  * [PHP v8.0](https://www.php.net/releases/8.0/en.php) or higher 🚀
