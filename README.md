@@ -6,7 +6,7 @@
 - [📦 Installation](#-installation)
 - [🪄 Examples](#-usage---examples)
 - [👨‍🍳 Who is the baker?](#-who-baked-this)
-- [📺 Me building this package](#me-building-this-package-)
+- [📺 Me building this package](#-me-building-this-package)
 - [⚖️ License](#%EF%B8%8F-license)
 
 ## ⚙️ Requirement
