@@ -25,7 +25,7 @@ composer require ph-7/php-http-response-header
 
 ### Send Header By HTTP Code
 ```php
-use PH7\PhpHttpResponseHeader\Header;
+use PH7\PhpHttpResponseHeader\Http;
 
 // Sends "200 OK" header to the browser
 Http::setHeadersByCode(200);
@@ -62,7 +62,7 @@ Http::setMaintenanceCode($maintenanceTimeSeconds: 360);
 ### Get HTTP Protocol
 
 ```php
-use PH7\PhpHttpResponseHeader\Header;
+use PH7\PhpHttpResponseHeader\Http;
 
 //  The HTTP server protocol
 Http::getProtocol()
@@ -70,7 +70,7 @@ Http::getProtocol()
 
 ### Set Content Type
 ```php
-use PH7\PhpHttpResponseHeader\Header;
+use PH7\PhpHttpResponseHeader\Http;
 
 // Send "Content-Type: application/json" header to the browser
 Http::setContentType('application/json');
