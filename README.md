@@ -88,7 +88,7 @@ Http::setContentType('text/xml');
 
 ☕️ Are you enjoying it? **[Offer me a coffee](https://ko-fi.com/phenry)** and boost the software development at the same time! 💪
 
-[![@phenrysay][twitter-icon]](https://x.com/phenrysay) [![pH-7][github-icon]](https://github.com/pH-7)
+[![@phenrysay][twitter-icon]](https://x.com/phenrysay) [![pH-7][github-icon]](https://github.com/pH-7) [![YouTube Tech Videos][youtube-icon]](https://www.youtube.com/@pH7Programming "My YouTube Tech Channel")
 
 
 ## 🎥 Me building this package
@@ -106,5 +106,6 @@ Http::setContentType('text/xml');
 <!-- GitHub's Markdown reference links -->
 [twitter-icon]: https://img.shields.io/badge/x-000000?style=for-the-badge&logo=x
 [github-icon]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[youtube-icon]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
 [video-thumbnail]: https://i1.ytimg.com/vi/Q4djsRczxgo/maxresdefault.jpg
 
