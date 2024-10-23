@@ -1,5 +1,6 @@
 # Exclude unneeded files/folders for the distribution archive
 /tests           export-ignore
+/media           export-ignore
 /.github         export-ignore
 phpunit.xml.dist export-ignore
 .gitattributes   export-ignore
