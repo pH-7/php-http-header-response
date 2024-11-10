@@ -15,7 +15,7 @@
 
 ## 📦 Installation
 
-The simplest way to add this library to your project, is with Composer
+The simplest way to add this library to your project, is with [Composer](https://getcomposer.org).
 
 ```console
 composer require ph-7/php-http-response-header
