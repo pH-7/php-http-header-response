@@ -1,6 +1,6 @@
 # PHP HTTP Response Headers
 
-**Simple PHP package to easily send the right HTTP header responses to the browser 🐘**
+**Simple PHP package to safely send the right HTTP header responses to the browser 🐘**
 
 - [⚙️ Requirement](#%EF%B8%8F-requirement)
 - [📦 Installation](#-installation)
@@ -88,7 +88,7 @@ Http::setContentType('text/xml');
 
 ☕️ Are you enjoying it? **[Offer me a coffee](https://ko-fi.com/phenry)** (my favorite coffee to start the day is almond flat white 😋)
 
-[![@phenrysay][twitter-icon]](https://x.com/phenrysay) [![pH-7][github-icon]](https://github.com/pH-7) [![YouTube Tech Videos][youtube-icon]](https://www.youtube.com/@pH7Programming "My YouTube Tech Channel")
+[![@phenrysay][twitter-icon]](https://x.com/phenrysay) [![YouTube Tech Videos][youtube-icon]](https://www.youtube.com/@pH7Programming "My YouTube Tech Channel") [![pH-7][github-icon]](https://github.com/pH-7)
 
 
 ## 🎥 Me building this package
