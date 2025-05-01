@@ -97,6 +97,10 @@ Http::setContentType('text/xml');
 
 👉 **[Click here to watch on YouTube](https://youtu.be/Q4djsRczxgo)**, me building this package from A to Z.
 
+---
+
+![PHP HTTP Response Headers - Send Header By HTTP Code](media/php-http-header-response.png)
+
 
 ## ⚖️ License
 
